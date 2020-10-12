@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html ng-app='ControllerAsApp'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>Cardoor - Car Rental HTML Template</title>
+
+    <!--=== Bootstrap CSS ===-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!--=== Slicknav CSS ===-->
+    <link href="assets/css/plugins/slicknav.min.css" rel="stylesheet">
+    <!--=== Magnific Popup CSS ===-->
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <!--=== Owl Carousel CSS ===-->
+    <link href="assets/css/plugins/owl.carousel.min.css" rel="stylesheet">
+    <!--=== Gijgo CSS ===-->
+    <link href="assets/css/plugins/gijgo.css" rel="stylesheet">
+    <!--=== FontAwesome CSS ===-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!--=== Theme Reset CSS ===-->
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <!--=== Main Style CSS ===-->
+    <link href="style.css" rel="stylesheet">
+    <!--=== Responsive CSS ===-->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+	<script src="angular.min.js"></script>
+    <script src="fac.js"></script>
+  
+   
+
+    
+</head>
+
+<body class="loader-active">
+
+    <!--== Preloader Area Start ==-->
+    <div class="preloader">
+        <div class="preloader-spinner">
+            <div class="loader-content">
+                <img src="assets/img/preloader.gif" alt="JSOFT">
+            </div>
+        </div>
+    </div>
+    <!--== Preloader Area End ==-->
+
+    <!--== Header Area Start ==-->
+    <header id="header-area" class="fixed-top">
+        <!--== Header Top Start ==-->
+        <div id="header-top" class="d-none d-xl-block">
+            <div class="container">
+                <div class="row">
+                    <!--== Single HeaderTop Start ==-->
+                    <div class="col-lg-3 text-left">
+                        <i class="fa fa-map-marker"></i> Madurai
+                    </div>
+                    <!--== Single HeaderTop End ==-->
+
+                    <!--== Single HeaderTop Start ==-->
+                    <div class="col-lg-3 text-center">
+                        <i class="fa fa-mobile"></i> +91 9845689023
+                    
+                    </div>
+                    <!--== Single HeaderTop End ==-->
+
+                    <!--== Single HeaderTop Start ==-->
+                    <div class="col-lg-3 text-center">
+                        <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00
+                    </div>
+                    <!--== Single HeaderTop End ==-->
+
+                    <!--== Social Icons Start ==-->
+                    <div class="col-lg-3 text-right">
+                        <i class="fa fa-taxi"></i> CabWaala Services
+                    </div>
+                    <!--== Social Icons End ==-->
+                </div>
+            </div>
+        </div>
+        <!--== Header Top End ==-->
+
+        <!--== Header Bottom Start ==-->
+        <div id="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <!--== Logo Start ==-->
+                    <div class="col-lg-4">
+                        <a href="rindex.html" class="logo">
+                            <img src="assets/img/logo.png" alt="JSOFT">
+                        </a>
+                    </div>
+                    <!--== Logo End ==-->
+
+                    <!--== Main Menu Start ==-->
+                    <div class="col-lg-8 d-none d-xl-block">
+                        <nav class="mainmenu alignright">
+                            <ul>
+                                <li><a href="rindex.html">Home</a>                                
+                                </li>
+                                      
+                                                               
+                                
+                                        <li><a href="rlogin.html">Log In</a></li>
+                                        <li><a href="rregister.html">Register</a></li>
+                                        
+                                    
+                                 <li><a href="rfaqhtml">Reviews</a></li>
+                                <li><a href="rcontact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--== Main Menu End ==-->
+                </div>
+            </div>
+        </div>
+        <!--== Header Bottom End ==-->
+    </header>
+    <!--== Header Area End ==-->
+
+    <!--== Page Title Area Start ==-->
+    <section id="page-title-area" class="section-padding overlay">
+        <div class="container">
+            <div class="row">
+                <!-- Page Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>FAQ's and Reviews</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <p>Here is your most awaited question answered and make reviews!</p>
+                    </div>
+                </div>
+                <!-- Page Title End -->
+            </div>
+        </div>
+    </section>
+    <!--== Page Title Area End ==-->
+
+    <!--== FAQ Area Start ==-->
+    <section id="faq-page-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- FAQ Content Start -->
+				<div class="col-lg-8">
+					<div class="faq-details-content">
+						<!-- Single FAQ Subject  Start -->
+						<div class="single-faq-sub">
+							<h3>Frequently Asked Questions !</h3>
+							<h3>Booking</h3>
+							<div class="single-faq-sub-content">
+								<div id="accordion">
+									<!-- Single FAQ Start -->
+									<div class="card">
+										<div class="card-header" id="headingOne">
+											<h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<span>Do I need to register on your site to book tickets?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+											</button></h5>
+										</div>
+
+										<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+											<div class="card-body">
+											    No. You can use our service fully without the need to register. You just need to provide your details at the time of booking.	
+											</div>
+										</div>
+									</div>
+									<!-- Single FAQ End -->
+									
+									<!-- Single FAQ Start -->
+									<div class="card">
+										<div class="card-header" id="headingTwo">
+											<h5 class="mb-0"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  			<span> What if the car doesn't show up?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+									  		</button></h5>
+										</div>
+										<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+											<div class="card-body">
+													In case the vehicle you booked doesn't show up, we will offer you a full refund immediately.
+										     </div>
+										</div>
+									</div>
+									<!-- Single FAQ Start -->
+									
+									<!-- Single FAQ End -->
+									<div class="card">
+										<div class="card-header" id="headingThree">
+											<h5 class="mb-0"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									  			<span>What if the car shows up late?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+											</button></h5>
+										</div>
+										<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+											<div class="card-body">
+												We try our best to ensure our partners reach our customers on time. But in case of delays, do call us and we will help you out by either providing an alternate vehicle or giving you a full refund.
+											</div>
+										</div>
+									</div>
+									<!-- Single FAQ End -->
+								</div>
+							</div>
+						</div>
+						<!-- Single FAQ Subject End -->
+						
+						<!-- Single FAQ Subject  Start -->
+						<div class="single-faq-sub">
+							<h3>Preparation</h3>
+							<div class="single-faq-sub-content">
+								<div id="accordion_2">
+									<!-- Single FAQ Start -->
+									<div class="card">
+										<div class="card-header" id="heading4">
+											<h5 class="mb-0"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+												<span>How is about your cancellation policies ?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+											</button></h5>
+										</div>
+
+										<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion_2">
+											<div class="card-body">
+											     n Micro/Mini/Prime/Sedan/Suv/Luxury/Rental and Auto
+Cancellation fee will be charged :
+
+If you cancel after 5 minutes after the cab is allotted or
+If a driver cancels after waiting at your location for more than 5 minutes
+You will not be charged a cancellation fee if the driver is delayed by more than 5 minutes
+Cancellation fee will be added to the bill amount of your next ride.
+In Share
+Cancellation fee will be charged :
+
+If you cancel after 2 minutes after the cab is allotted or
+If a driver cancels after waiting at your location for more than 3 minutes
+You will not be charged a cancellation fee if the driver is delayed by more than 5 minutes
+Cancellation fee will be added to the bill amount of your next ride.
+In Outstation
+Cancellation fee will be charged :
+
+If you cancel after 5 minutes after the cab is allotted
+Cancellation fee will be added to the bill amount of your next ride.
+											</div>
+										</div>
+									</div>
+									<!-- Single FAQ End -->
+									
+									<!-- Single FAQ Start -->
+									<div class="card">
+										<div class="card-header" id="headingFour">
+											<h5 class="mb-0"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									  			<span>How to make use CabWaala money?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+									  		</button></h5>
+										</div>
+										<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion_2">
+											<div class="card-body">
+											 Terms and Conditions for Merchants
+By accepting the terms and conditions of ANI Technologies Private Limited (“ANI”) provided hereunder, and by registering on ANI’s mobile application/ website (https://www.olacabs.com) , You/user hereby explicitly and simultaneously choose to create an ‘OlaMoney Powered by Zipcash’ wallet account with Zipcash Card Services Private Limited (“Zipcash”), which is subject to the applicable terms and conditions of Zipcash available through the above link (“Zipcash T&Cs”). You hereby also accept and agree to be bound by the Zipcash T&Cs at all times.
+											</div>
+										</div>
+									</div>
+									<!-- Single FAQ Start -->
+									
+									<!-- Single FAQ End -->
+									<div class="card">
+										<div class="card-header" id="headingFive">
+											<h5 class="mb-0"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									  			<span>What is CabWaala's peak time charge?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+											</button></h5>
+										</div>
+										<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion_2">
+											<div class="card-body">
+													CabWaala peak time charge is a fare-rationalizing rule of using a multiplier X or a flat surcharge to the standard fares causing the fare to be higher than the standard fare during certain times the day; i.e. if X is 1.2 during some point of time then the standard fare will be multiplied by 1.2 to get the final fare.
+											</div>
+										</div>
+									</div>
+									<!-- Single FAQ End -->
+									
+									<!-- Single FAQ End -->
+									<div class="card">
+										<div class="card-header" id="headingSix">
+											<h5 class="mb-0"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+									  			<span>Why there is bookings only after confirmations?</span>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+											</button></h5>
+										</div>
+										<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion_2">
+											<div class="card-body">
+											   CabWaala is transparent about the rates. OLA makes sure that customers are aware of the dynamics of peak time charge and how it works. Whenever peak time charge is applicable; customers get a clear intimation, to confirm their intent to avail the ride at a higher price than normal. The booking process is initiated only when they confirm; hence, if a customer wants to avoid that ride he/she may choose to do it, thus making the cab available to others who are in need.	
+											</div>
+										</div>
+									</div>
+									<!-- Single FAQ End -->
+								</div>
+							</div>
+						</div>
+						<!-- Single FAQ Subject End -->
+							<div class="review-area" >
+							    <div class="faq-details-content">
+						<!-- Single FAQ Subject  Start -->
+									<div class="single-faq-sub">
+										<h3>Put your Feedback here for further improvements of the organisation !</h3>
+										<div class="single-faq-sub-content">
+											<div class="review-form">
+									
+												<form action="rindex.html">
+													<div class="row">
+										  
+														<div class="col-lg-6 col-md-6">
+												
+															<div class="name-input">
+																<input type="text" placeholder="Full Name">
+															</div>
+														</div>
+
+														<div class="col-lg-6 col-md-6">
+															<div class="email-input">
+																<input type="email" placeholder="Email Address">
+															</div>
+														</div>
+													</div>
+													
+													
+</div>
+													<div class="message-input" >
+														
+														<textarea name="review" cols="30" rows="5" placeholder="Write Your Feedback Here!" ng-keypress="count = count + 1" ng-init="count=0" ></textarea>
+														 Feedback string length: {{count}}
+														
+													</div>
+													
+ 
+
+											<div class="input-submit">
+														<button type="submit">Submit</button>
+														<button type="reset">Clear</button>
+												
+												</form>
+												<div id="list2" ng-controller='Storylist2 as list2' style =" text-align : center"><br><br>
+      <h3 style="text-align: left ;">Put your Comments here if there are any suggestions!</h3><br>
+	  <h6 style="text-align: left ;">Note: Only 3 comments/suggestions are allowed</h6><br>
+      
+      <input type="text" ng-model="list2.storyname" placeholder="Enter your suggestion" ><br><br>
+      <button ng-click="list2.addItem();" type="submit"> Add suggestion </button>
+      <ol>
+        <li ng-repeat="item in list2.items">
+          {{ item.storyname }} 
+          <button ng-click="list2.removeItem($index);" type="submit">     Remove suggestion</button>
+		  
+        </li><br>
+		      
+			  <p> Your suggestion is considered for sure if it is reasonable </p><br><br><br>
+      </ol>
+      <div class="error" style="color:red;" text-align ="center"> {{list2.errorMessage}}</div></p>
+    </div>
+		</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+                <!-- FAQ Content End -->
+				
+
+                <!-- Sidebar Area Start -->
+                <div class="col-lg-4">
+                    <div class="sidebar-content-wrap m-t-50">
+                        <!-- Single Sidebar Start -->
+                        <div class="single-sidebar">
+                            <h3>For More Informations</h3>
+
+                            <div class="sidebar-body">
+                                <p><i class="fa fa-mobile"></i> +91 9878909878</p>
+                                <p><i class="fa fa-clock-o"></i> Mon - Sat 8.00 - 18.00</p>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End -->
+
+                       
+                        <!-- Single Sidebar End -->
+
+                        <!-- Single Sidebar Start -->
+                        <div class="single-sidebar">
+                            <h3>Help desk</h3>
+
+                            <div class="sidebar-body">
+                                <div class="social-icons text-center">
+                                    <a href="https://www.facebook.com/thecabwaala" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-behance"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End -->
+                    </div>
+                </div>
+                <!-- Sidebar Area End -->
+            </div>
+        </div>
+    </section>
+    <!--== FAQ Area End ==-->
+
+    <!--== Footer Area Start ==-->
+	<section id="footer-area">
+        <!-- Footer Widget Start -->
+        <div class="footer-widget-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <h2>About Us</h2>
+                            <div class="widget-body">
+                                <img src="assets/img/logo.png" alt="JSOFT">
+                                <p>The CabWaala app offers mobility solutions by connecting customers to drivers and a wide range of vehicles across bikes, auto-rickshaws, metered taxis, and cabs, enabling convenience and transparency </p>
+								<p>for hundreds of millions of consumers and over 1.5 million driver-partners..</p>
+
+                                <div class="newsletter-area">
+                                    <form action="index.html">
+                                        <input type="email" placeholder="Subscribe Our Newsletter">
+                                        <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <h2>Recent Posts</h2>
+                            <div class="widget-body">
+                                <ul class="recent-post">
+                                    <li>
+                                        <a href="https://economictimes.indiatimes.com/topic/cab-services">
+                                           Hello Madurai! 
+                                           <i class="fa fa-long-arrow-right"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.thehindu.com/news/cities/chennai/new-cab-service-gears-up-to-take-on-ola-uber/article24196050.ece">
+                                          
+									       Vanakkam Chennai!
+                                           <i class="fa fa-long-arrow-right"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://economictimes.indiatimes.com/topic/Bangalore-Cab">
+                                           Welcome Bangalore! 
+                                           <i class="fa fa-long-arrow-right"></i>
+                                       </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <h2>get touch</h2>
+                            <div class="widget-body">
+                                <p>Get in touch with the CabWaala  for active and instant cab services</p>
+
+                                <ul class="get-touch">
+                                    <li><i class="fa fa-map-marker"></i> 17/1, Mahal 8th street, Madurai</li>
+                                    <li><i class="fa fa-mobile"></i> +91 9845689023</li>
+                                    <li><i class="fa fa-envelope"></i> cabwaala@gmail.com</li>
+                                </ul>
+                                <a href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&hl=en&msa=0&t=h&z=19&mid=1H_cOxIlz3ibNJIVn7Uah5aZHCQo&ll=9.913058500038334%2C78.123741" class="map-show" target="_blank">Show Location</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer Widget End -->
+
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+    </section>
+    <!--== Footer Area End ==-->
+
+    <!--== Scroll Top Area Start ==-->
+    <div class="scroll-top">
+        <img src="assets/img/scroll-top.png" alt="JSOFT">
+    </div>
+    <!--== Scroll Top Area End ==-->
+
+    <!--=======================Javascript============================-->
+    <!--=== Jquery Min Js ===-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!--=== Jquery Migrate Min Js ===-->
+    <script src="assets/js/jquery-migrate.min.js"></script>
+    <!--=== Popper Min Js ===-->
+    <script src="assets/js/popper.min.js"></script>
+    <!--=== Bootstrap Min Js ===-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--=== Gijgo Min Js ===-->
+    <script src="assets/js/plugins/gijgo.js"></script>
+    <!--=== Vegas Min Js ===-->
+    <script src="assets/js/plugins/vegas.min.js"></script>
+    <!--=== Isotope Min Js ===-->
+    <script src="assets/js/plugins/isotope.min.js"></script>
+    <!--=== Owl Caousel Min Js ===-->
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <!--=== Waypoint Min Js ===-->
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <!--=== CounTotop Min Js ===-->
+    <script src="assets/js/plugins/counterup.min.js"></script>
+    <!--=== YtPlayer Min Js ===-->
+    <script src="assets/js/plugins/mb.YTPlayer.js"></script>
+    <!--=== Magnific Popup Min Js ===-->
+    <script src="assets/js/plugins/magnific-popup.min.js"></script>
+    <!--=== Slicknav Min Js ===-->
+    <script src="assets/js/plugins/slicknav.min.js"></script>
+<script src="//code.angularjs.org/snapshot/angular.min.js"></script>
+    <!--=== Mian Js ===-->
+    <script src="assets/js/main.js"></script>
+	
+	
+	
+
+</body>
+
+
+</html>
