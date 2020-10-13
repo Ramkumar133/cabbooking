@@ -10,7 +10,7 @@
     function Storylist2(StoryListFactory) {
       var list2 = this;
     
-      var storyList = StoryListFactory(3);
+      var storyList = StoryListFactory(5);
     
       list2.items = storyList.getItems();
     
